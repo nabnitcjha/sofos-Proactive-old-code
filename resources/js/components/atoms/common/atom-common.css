@@ -1,0 +1,40 @@
+.user__type--student {
+    background-color: #e2f3fa;
+}
+.user__type--teacher {
+    background-color: #fceded;
+}
+.activeUserLogo__page {
+    display: flex;
+    height: 139px;
+    border-radius: 10px;
+    align-items: center;
+    width: 300px;
+}
+.activeUserLogo__page .student-logo {
+    padding: 1rem;
+}
+.activeUserLogo__page .user-type {
+    height: 139px;
+    background-color: #589a42;
+    width: 265px;
+    border-radius: 0px 10px 10px 0px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.activeUserLogo__page .user-type h1 {
+    font-size: 23px !important;
+}
+.user__type--parent img{
+    height: 50px;
+    width: 74px;
+}
+.user__type--parent{
+    /* background-color: #f59d1abd; */
+    background-color: #f59d1a91;
+}
+.activeUserLogo__page{
+    cursor: pointer;
+}

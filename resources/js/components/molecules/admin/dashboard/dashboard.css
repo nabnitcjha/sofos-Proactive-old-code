@@ -1,0 +1,30 @@
+.dashboard-icon-size {
+    width: 35px;
+    height: 35px;
+}
+
+
+.task .task-time{
+    background-color: #E3EEDF;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.task .task-time h6,  .task .task-content h6{
+    font-weight: 500;
+}
+
+.task .task-flex{
+    display: flex;
+    align-items: center;
+}
+
+.task-time img{
+    max-width: 35px;
+}

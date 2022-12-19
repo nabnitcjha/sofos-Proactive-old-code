@@ -1,0 +1,105 @@
+.add-grade .card-header {
+    background-color: #fff !important;
+}
+.add-grade .card-header h6 {
+    font-size: 17px;
+    line-height: 29px;
+    color: #2b2b2b!important;
+}
+
+#wrapper .add-grade {
+    overflow-x: visible!important;
+}
+.add-grade .grade-info form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-grade .grade-info form .form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.add-grade .grade-info .next-btn{
+    align-items: flex-end!important;
+}
+.add-grade .grade-info .back-btn{
+    align-items: flex-start!important;
+}
+.add-grade  label{
+    font-style: normal!important;
+    font-weight: 500!important;
+    font-size: 13px!important;
+    line-height: 22px!important;
+    color: #555555!important;
+}
+.add-grade .form-control:focus {
+    box-shadow: unset!important;
+}
+.add-grade .form-control{
+    outline: none;
+}
+.add-grade form .form-control::-webkit-input-placeholder { 
+    color: #ced4da;
+  }
+  
+  .add-grade form .form-control::-moz-placeholder {
+    color: #ced4da;
+  }
+  .add-grade form .form-control:-ms-input-placeholder {
+    color: #ced4da;
+  }
+  .add-grade  form .form-control:placeholder {
+    color: #ced4da;
+  }
+
+ .add-grade .grade-info .action-btn{
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: space-between!important;
+  }
+  .add-grade .grade-info .parent-photo-up{
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: flex-end!important;
+  }
+
+  .list-grade .table .thead-light th {
+    color: #495057!important;
+    background-color: #fff!important;
+    border-color: #fff!important;
+}
+
+.list-grade .card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-grade .card-header h6{
+    color: #2B2B2B!important;
+}
+
+.list-grade .table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #fff!important;
+}
+
+@media (max-width: 768px){
+    .list-grade {
+        transform: translateX(-2%) !important;
+    }
+    }
+
+@media (max-width: 603px){
+.list-grade {
+    transform: translateX(-9%) !important;
+}
+}
+
+.tableIndex__page--data{
+    display: flex;
+}
+

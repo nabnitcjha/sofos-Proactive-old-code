@@ -1,0 +1,132 @@
+.addStudent__page .address-info,
+.addParent__page .address-info,
+.addTeacher__page .address-info {
+    width: 95%;
+    transform: translate(3%, 1%);
+}
+
+.teacherTemplate__page,.studentTemplate__page{
+    margin-top: 3%;
+}
+.admin-timetable-detail{
+    overflow: scroll;
+}
+.addStudent__page .formTitle__page,
+.addParent__page .formTitle__page,
+.addTeacher__page .formTitle__page,
+.editStudent__page .formTitle__page,
+.editParent__page .formTitle__page,
+.editTeacher__page .formTitle__page {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.editStudent__page .formTitle__page,.editTeacher__page .formTitle__page{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.formTitle__page .form-page-tile {
+    font-size: 25px;
+    font-weight: 600;
+    color: #4e4e4e;
+}
+.addStudent__page .formTitle__page .form-action-name .btn-cstm,
+.addParent__page .formTitle__page .form-action-name .btn-cstm,
+.addTeacher__page .formTitle__page .form-action-name .btn-cstm,
+.editStudent__page .formTitle__page .form-action-name .btn-cstm,
+.editTeacher__page .formTitle__page .form-action-name .btn-cstm
+{
+    background-color: #9e9e9e5c;
+    width: 118%;
+    border-radius: 100%;
+}
+.addStudent__page .formTitle__page .form-action-name i,
+.addParent__page .formTitle__page .form-action-name i,
+.addTeacher__page .formTitle__page .form-action-name i,
+.editStudent__page .formTitle__page .form-action-name i,
+.editTeacher__page .formTitle__page .form-action-name i
+{
+    transform: translate(-6%, 6%);
+    color: #fff;
+    font-size: 25px;
+}
+.addStudent__page,
+.addTeacher__page,
+.addParent__page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addParent__page .phone-field,
+.addTeacher__page .phone-field
+ {
+    margin-top: 4%!important;
+}
+.addStudent__page .phone-field {
+    margin-top: -1%!important;
+}
+
+.addParent__page .remove-padding-bottom,
+.addTeacher__page .remove-padding-bottom,
+.addStudent__page .remove-padding-bottom {
+    padding-bottom: unset!important;
+}
+
+.studentDetailTemplate__page,.teacherFormTemplate__page{
+    margin-top: 1rem;
+}
+
+.student__form--studentSection{
+    display: flex;
+    padding-bottom: 9%;
+}
+.editTeacher__page .address-info-row , .editStudent__page .address-info-row{
+    margin-left: 0%!important;
+    margin-right: 0%!important;
+}
+
+.editTeacher__page .address-info-row{
+    margin-bottom: 2%;
+}
+.editTeacher__page .teacherIndex__page .save-btn .btn-success {
+    margin-right: 2.8%!important;
+}
+
+.editStudent__page .address-info-row ,.addTeacher__page .address-info,.editTeacher__page .address-info{
+    border: 2px solid #F39D35!important;
+}
+.editStudent__page .address-info-row .v-sheet.v-card:not(.v-sheet--outlined),.editStudent__page .parent-info-row .v-sheet.v-card:not(.v-sheet--outlined){
+    box-shadow: none!important;
+}
+.editStudent__page .parent-info-row {
+    margin-left: 0%!important;
+    margin-right: 0%!important;
+    margin-top: 3%!important;
+    border: 2px solid #F39D35!important;
+}
+.addStudent__page .address-info , .addStudent__page .parent-info{
+    border: 2px solid #F39D35!important;
+}
+.addStudent__page .v-sheet.v-card:not(.v-sheet--outlined),.addTeacher__page .v-sheet.v-card:not(.v-sheet--outlined),.editTeacher__page .v-sheet.v-card:not(.v-sheet--outlined){
+    box-shadow: none!important;
+}
+
+.basil {
+    background-color: #fff !important;
+}
+
+.list-grade .tableIndex__page--data{
+    justify-content: center;
+}
+/* .list-subject .left-align{
+    text-align: left;
+}
+.list-subject .right-align{
+    text-align: right;
+} */

@@ -1,0 +1,40 @@
+.admindashboard__page .sidebar-light .sidebar-brand ,.admindashboard__page .bg-navbar,.admindashboard__page .sidebar{
+    color: #fafafa!important;
+    background-color: #F2EEEE!important;
+    box-shadow: none!important;
+}
+.admindashboard__page .img-profile{
+    max-width: 60px;border: 1px solid #F39D35!important;
+    height: 2.5rem!important;
+    width: 2.5rem!important;
+}
+.admindashboard__page .user-name{
+    color: #1c8d21 !important;
+    font-size: 12px;
+    font-weight: 700;
+}
+.admindashboard__page .rounded-circle .fa-bars{
+    color: #F39D35 !important;
+}
+.admindashboard__page .admin__content-wrapper{
+    background-color: #fff!important;
+}
+.admindashboard__page .admin__sidebar .nav-item .nav-link{
+    /* text-align: center!important; */
+    font-weight: 500;
+    color: #575454;
+}
+.admindashboard__page .admin__sidebar .nav-item .nav-link a{
+    color: #575454!important;
+}
+.admindashboard__page .admin__logo-divider{
+    margin-bottom: 10%!important;
+}
+
+.admin__content-wrapper{
+    overflow-y: scroll;
+    max-height: 100vh;
+}
+.custom-margin{
+    margin-top: 6%;
+}

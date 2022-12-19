@@ -1,0 +1,32 @@
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #8bc34a !important;
+}
+span.custom-checkbox {
+    padding: 2rem !important;
+}
+.custom-checkbox
+    .custom-control-input:checked:focus
+    ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #fff;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+@media (max-width: 468px) {
+  .permission-mobo{
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: flex-start!important;
+    transform: translateX(33%)!important;
+  }
+  span.custom-checkbox {
+    padding: 0 !important;
+    padding-bottom: 2rem!important;
+}
+.role-permission .table-responsive{
+  overflow-x: hidden!important;
+}
+}

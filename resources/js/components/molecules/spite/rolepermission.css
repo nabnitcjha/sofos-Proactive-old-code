@@ -1,0 +1,35 @@
+
+  .role-permission .table .thead-light th {
+    color: #495057!important;
+    background-color: #fff!important;
+    border-color: #fff!important;
+}
+
+.role-permission .card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.role-permission .card-header h6{
+    color: #2B2B2B!important;
+}
+
+.role-permission .table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #fff!important;
+}
+
+@media (max-width: 768px){
+    .role-permission {
+        transform: translateX(-2%) !important;
+    }
+    }
+
+@media (max-width: 603px){
+.role-permission {
+    transform: translateX(-9%) !important;
+}
+}

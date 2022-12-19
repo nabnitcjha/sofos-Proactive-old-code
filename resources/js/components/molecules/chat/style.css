@@ -1,0 +1,54 @@
+.chatMessage__page .myMessage,
+.chatMessage__page .friendMessage {
+    display: flex !important;
+    border-bottom: unset !important;
+}
+.chatMessage__page .myMessage {
+    justify-content: flex-end !important;
+    margin-right: 2% !important;
+}
+.chatMessage__page .friendMessage {
+    justify-content: flex-start !important;
+    margin-left: 2% !important;
+}
+.chatMessage__page .myMessage p,
+.chatMessage__page .friendMessage p{
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 19px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5px;
+}
+.chatMessage__page .myMessage .header {
+    text-align-last: end !important;
+}
+.chatMessage__page .myMessage p{
+    text-align-last: end !important;
+    background-color: #c4c4c4b2;
+    color: #4e4e4e;
+}
+.chatMessage__page .friendMessage  p{
+    background-color: #FE8B24 !important;
+    color: #fff !important;
+}
+
+.chatform__page .type-message-input{
+    border: unset!important;
+    background-color: unset!important;
+}
+.chatform__page .input-group{
+    background-color: #C3FAB1;
+    border-radius: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.chatform__page .input-message-svg{
+    display: flex!important;
+    justify-content: flex-end!important;
+    transform: translate(15%,-2%)!important;
+}
+.arrow-svg{
+    width: 30%!important;
+    transform: translateX(-150%)!important;
+}

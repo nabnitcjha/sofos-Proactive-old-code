@@ -1,0 +1,126 @@
+.admin-profile .card-header {
+    background-color: #fff !important;
+}
+.admin-profile .card-header h6 {
+    font-size: 17px;
+    line-height: 29px;
+    color: #2b2b2b !important;
+}
+
+#wrapper .admin-profile {
+    overflow-x: visible !important;
+}
+.admin-profile .student-info form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.admin-profile .student-info form .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.admin-profile .student-info .next-btn {
+    align-items: flex-end !important;
+}
+.admin-profile .student-info .back-btn {
+    align-items: flex-start !important;
+}
+.admin-profile label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #555555;
+}
+.admin-profile .form-control:focus {
+    box-shadow: unset !important;
+}
+.admin-profile .form-control {
+    outline: none;
+}
+.admin-profile form .form-control::-webkit-input-placeholder {
+    color: #ced4da;
+}
+
+.admin-profile form .form-control::-moz-placeholder {
+    color: #ced4da;
+}
+.admin-profile form .form-control:-ms-input-placeholder {
+    color: #ced4da;
+}
+.admin-profile form .form-control:placeholder {
+    color: #ced4da;
+}
+
+.admin-profile .student-info .action-btn {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+.admin-profile .student-info .parent-photo-up {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+}
+.profile-seperator {
+    display: flex;
+}
+
+.info-body form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upload-image-size{
+    max-width: 15rem !important;
+    height: 16rem !important;
+    /* border: 2px solid #c4c4c4; */
+}
+.img-body{
+    display: flex;
+}
+.img-body img{
+    cursor: pointer;
+}
+.img-body .edit-icon{
+    transform: translate(-50%, -2%);
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .upload-image-size{
+        max-width: 100% !important;
+        height: auto !important;
+        /* border: 2px solid #c4c4c4; */
+    }
+    .profile-seperator {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+@media (max-width: 603px) {
+    .upload-image-size{
+        max-width: 100% !important;
+        height: auto !important;
+        /* border: 2px solid #c4c4c4; */
+    }
+    .profile-seperator {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

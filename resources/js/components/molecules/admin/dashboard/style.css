@@ -1,0 +1,127 @@
+/* .sidbar__page .move-middle{
+    cursor: pointer!important;
+    display: flex!important;
+    flex-direction: row!important;
+}
+
+.sidbar__page{
+    color: #fafafa!important;
+    background-color: #F2EEEE!important;
+    box-shadow: none!important;
+    height: 100vh;
+}
+
+
+.sidbar__page .sidebar-brand-icon{
+    margin: 26px;
+    margin-bottom: 40px;
+}
+
+.sidbar__page .sidebar-brand-icon img{
+    height: 37px!important;
+}
+.sidbar__page .sidebar__menu{
+    padding-left: 20%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-bottom: 15px;
+    color: #4e4e4e;
+    cursor: pointer;
+}
+.sidbar__page .sidebar__menu-assessment{
+    padding-top: 3%!important;
+}
+.sidbar__page .sidebar__menu-create-assessment{
+    padding-top: 3%!important;
+    padding-bottom: 0!important;
+    margin-bottom: 0!important;
+}
+.menu-divider{
+    padding-left: 20%;
+    margin-bottom: 15px;
+    color: rgb(88, 154, 66)!important;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Nunito';
+}
+
+.sidbar__page .sidebar__menu a{
+    color: #4e4e4e!important;
+}
+
+
+.change-fontsize{
+    font-size: 15px!important;
+}
+
+.navbar__page{
+    width: 86%;
+    z-index: 1;
+}
+
+.sidebar__menu--lists{
+    max-height: 86vh!important;
+    overflow-y: scroll;
+}
+.sub-menu-title{
+    padding-left: 15%;
+    color: #212529!important;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Nunito';
+}
+
+.sidbar__menu-class,.sidbar__menu-calendar{
+    padding-left: 15%;
+    color: #212529!important;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Nunito';
+    cursor: pointer;
+}
+.sidbar__menu-calendar{
+    margin-top: 10px!important;
+} */
+
+.icon-size {
+    width: 25px;
+    height: 25px;
+}
+.sidebar-margin-top {
+    margin-top: 14px;
+}
+
+.sidbar__page .active__menu--color {
+    background-color: #fe8b24;
+}
+.sidbar__page .active__menu--color span,
+.sidbar__page .active__menu--color i {
+    color: #fff !important;
+}
+.bg-custom-gray {
+    background-color: #555555 !important;
+}
+.nav-search {
+    background: #ffffff;
+    border: 2px solid #d4d4d4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ced4da !important;
+    box-shadow: unset !important;
+}
+.nav-item {
+    cursor: pointer;
+}
+
+.burger-menu {
+    display: none !important; /* Hide on Desktop */
+}
+
+@media (max-width: 768px) {
+    .burger-menu {
+        display: block !important; /* Show on Mobile */
+    }
+}

@@ -1,0 +1,120 @@
+/* .login__page .card-start{
+    width: 25rem!important;
+} */
+
+
+.login-page .background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+.login-page .shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    left: -80px;
+    top: -80px;
+}
+.login-page .shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    right: -30px;
+    bottom: -80px;
+}
+.login-page form{
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+.login-page form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.login-page form h3{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+	color: #FEA657;
+}
+
+.login-page label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+	color: #4e4e4e;
+}
+.login-page .login-signup{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+	border: 1px solid #c4c4c4;
+	color: #4e4e4e;
+}
+.login-page ::placeholder{
+    color: #5f5e5e;
+}
+.login-page .login-btn{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #FEA657;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-page .forget-password{
+	color: #4e4e4e;
+	font-size: 14px;
+	margin-top: 10px;
+	text-decoration: none!important;
+	cursor: pointer;
+}
+
+.login-page .footer-login{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.login-page .signup{
+	
+	color: rgb(3 27 76);
+	cursor: pointer;
+}

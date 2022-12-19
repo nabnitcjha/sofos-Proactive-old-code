@@ -1,0 +1,20 @@
+.deletemodal__page .cancel_btn{
+    background-color: #64ad0f!important;
+    color: #fff!important;
+    font-weight: 700!important;
+}
+
+.deletemodal__page .delete_btn{
+    background-color: #FE8B24!important;
+    color: #fff!important;
+    border: orange!important;
+    font-weight: 700!important;
+}
+.deletemodal__page .hp-3-title{
+    font-size: 17px;
+    font-weight: 600;
+    color: #4e4e4e;
+}
+.deletemodal__page .delete__modal--user-name{
+    color: #64ad0f!important;
+}

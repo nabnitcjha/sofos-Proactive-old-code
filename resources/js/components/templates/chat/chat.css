@@ -1,0 +1,195 @@
+.chat__page .message-list {
+    overflow-y: scroll;
+    max-height: 200px;
+    min-height: 150px;
+}
+.chatIndex__page .div-hide{
+    visibility: hidden!important;
+}
+.chatIndex__page .chat-header {
+    height: 85px;
+    background-color: #c4c4c4;
+    width: 112%;
+    margin-bottom: 1%;
+}
+.chat-body .chat{
+    overflow-y: scroll;
+    height: 350px;
+}
+.admin-chat .rounded-circle{
+    height: 36px;
+    width: 52px;
+}
+.admin-chat .admin-arrow-svg{
+    transform: translateX(-177%);
+}
+.chat__user--lists .user-lists:first-child {
+    margin-top: 15%;
+}
+.chat__user--lists .user-lists{
+    background-color: #ffa42624;
+    padding: 2px 39px 2px 39px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px #ffc107;
+    border-radius: 5px;
+    color: #4e4e4e;
+}
+.chat__user--lists .user-lists:hover{
+    cursor: pointer;
+}
+.chat__user--lists {
+    overflow-y: scroll;
+    height: 512px;
+}
+.chatIndex-header {
+    display: flex;
+    justify-content: space-between;
+}
+.chatIndex__page .closeModal {
+    margin-right: 15px;
+}
+.chatIndex__page .panel-heading {
+    background-color: forestgreen;
+    color: #fff;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.chat__page .chat-title {
+    background-color: #f39d35 !important;
+    border-color: #f39d35 !important;
+}
+.chatIndex__page .user-lists {
+    margin-bottom: 10px;
+    color: #4e4e4e;
+    font-weight: 600;
+    display: flex;
+    margin-bottom: 7%;
+}
+
+.allow-light-border {
+    border: 2px solid #fe8b24;
+}
+.chatIndex__page .chat__user--detials {
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+}
+.chatIndex__page--header{
+    font-family: monospace;
+    padding: 2px 39px 2px 39px;
+}
+.chatList__page .list-group-item-orange {
+    background-color: #f39d35 !important;
+}
+.chatList__page .list-group-item-green {
+    background-color: #1c8d21 !important;
+}
+.chatList__page .list-group-item-orange,
+.chatList__page .list-group-item-green {
+    border-bottom: #fff !important;
+    border-radius: 25px !important;
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 15px;
+    color: #fff !important;
+}
+
+.image__circle {
+    height: 33px;
+    width: 33px;
+    border-radius: 100%;
+    margin-right: 15px;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: rgb(158 158 158 / 28%);
+}
+.chatList__page .list-group-item:last-child {
+    margin-bottom: 15px !important;
+}
+
+.chatIndex__page {
+    /* width: 90%!important; */
+}
+/* // */
+
+.chat {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.admin-type{
+    background-color: #3c35fe;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 10px;
+}
+.parent-type{
+    background-color: #fe35b1;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 10px;
+}
+.teacher-type{
+    background-color: #43032b;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 10px;
+}
+.student-type{
+    background-color: #8bc34a;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 10px;
+}
+.chat li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    /* border-bottom: 1px dotted #b3a9a9; */
+}
+.friendMessage{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+.chat li .chat-body p {
+    margin: 0;
+    color: #777777;
+}
+
+.panel-body {
+    overflow-y: scroll;
+    height: 350px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #e5dbdb;
+}
+
+@media screen and (max-width: 600px) {
+    .panel-body-mobile {
+        overflow-y: scroll !important;
+        height: 330px !important;
+    }
+    .chatIndex__page .panel-footer {
+        width: 100% !important;
+    }
+}

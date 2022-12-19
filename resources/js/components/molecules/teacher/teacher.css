@@ -1,0 +1,112 @@
+.add-teacher .card-header {
+    background-color: #fff !important;
+}
+.add-teacher .card-header h6 {
+    font-size: 17px;
+    line-height: 29px;
+    color: #2b2b2b!important;
+}
+
+#wrapper .add-teacher {
+    overflow-x: visible!important;
+}
+.add-teacher .teacher-info form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-teacher .teacher-info form .form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.add-teacher .teacher-info .next-btn{
+    align-items: flex-end!important;
+}
+.add-teacher .teacher-info .back-btn{
+    align-items: flex-start!important;
+}
+.add-teacher  label{
+    font-style: normal!important;
+    font-weight: 500!important;
+    font-size: 13px!important;
+    line-height: 22px!important;
+    color: #555555!important;
+}
+.add-teacher .form-control:focus {
+    box-shadow: unset!important;
+}
+.add-teacher .form-control{
+    outline: none;
+}
+.add-teacher form .form-control::-webkit-input-placeholder { 
+    color: #ced4da;
+  }
+  
+  .add-teacher form .form-control::-moz-placeholder {
+    color: #ced4da;
+  }
+  .add-teacher form .form-control:-ms-input-placeholder {
+    color: #ced4da;
+  }
+  .add-teacher  form .form-control:placeholder {
+    color: #ced4da;
+  }
+
+ .add-teacher .teacher-info .action-btn{
+    display: flex!important;
+    flex-direction: row!important;
+    justify-content: space-between!important;
+  }
+  .add-teacher .teacher-info .parent-photo-up{
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: flex-end!important;
+  }
+
+  .list-teacher .table .thead-light th {
+    color: #495057!important;
+    background-color: #fff!important;
+    border-color: #fff!important;
+}
+
+.list-teacher .card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #fff!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-teacher .card-header h6{
+    color: #2B2B2B!important;
+}
+
+.list-teacher .table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #fff!important;
+}
+
+figure span{
+    border: none!important;
+    padding-left:0;
+    font-size:24px;
+    text-align:center;
+    padding-top: 15px!important;
+}
+@media (max-width: 768px){
+    .list-teacher {
+        transform: translateX(-2%) !important;
+    }
+    }
+
+@media (max-width: 603px){
+.list-teacher {
+    transform: translateX(-9%) !important;
+}
+}
+
+.tableIndex__page--data{
+    display: flex;
+}
+

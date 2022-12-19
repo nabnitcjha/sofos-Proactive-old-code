@@ -1,0 +1,95 @@
+.commonheader__page{
+    width: 100%!important;
+}
+.commonheader__page .header__group{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.formTitle__page{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.formTitle__page .back-from-chat .btn-cstm{
+    background-color: #dcd5d5!important;
+    width: 43px!important;
+    height: 43px!important;
+    border-radius: 25px!important;
+}
+
+.formTitle__page .back-from-chat .btn-cstm .fa-chevron-left{
+    font-size: 25px!important;
+    color: #fff!important;
+    transform: translate(0%, 16%)!important;
+}
+
+.chatIndex__page .chat-header{
+    display: flex;
+}
+.chatIndex__page--header span:last-child{
+    font-size: 11px!important;
+    color: #4e4e4e!important;
+}
+.chatIndex__page--header span:first-child{
+    font-size: 22px!important;
+    color: #4e4e4e!important;
+}
+.chat__user--message{
+    padding-top: unset!important;
+}
+/* .form__title--chat{
+    transform: translate(1%, 43%);
+} */
+
+.chatIndex__page .chatMessage__page{
+    margin-top: 8.5%!important;
+}
+.chatIndex__page .panel-body{
+    height: 470px!important;
+}
+.chatIndex__page--header{
+    display: flex;
+    flex-direction: column;
+}
+.beforeLogin__page{
+    display: flex;
+    flex-direction: column;
+}
+.beforeLogin__page div:first-child{
+    text-align: center;
+}
+.beforeLogin__page .user__group{
+    display: flex;
+    justify-content: space-evenly;
+    transform: translate(0%, 100%);
+}
+
+.beforelogin-header{
+    margin-top: 40px;
+}
+.beforeLogin__page .user__type--student,.beforeLogin__page .user__type--teacher,.beforeLogin__page .user__type--parent{
+    cursor: pointer;
+}
+
+.commonheader__page .active-teacher-data{
+    margin-top: 5rem;
+}
+
+.active__border--color{
+    border: 2px solid #589a42;
+    border-radius: 13px;
+}
+
+.formTitle__page .btn-cstm{
+    background-color: #dcd5d5!important;
+    width: 43px!important;
+    height: 43px!important;
+    border-radius: 25px!important;
+    padding: .9rem 0.5rem!important;
+    font-size: 0.875rem!important;
+    line-height: 0!important;
+    margin-top: 25px;
+}
+
